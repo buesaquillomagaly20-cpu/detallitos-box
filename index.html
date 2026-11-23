@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detallitos Box | ERP y CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="brand">
+            <h2>🎁 Detallitos Box</h2>
+            <span>ERP & CRM 4.0</span>
+        </div>
+        <nav>
+            <p class="mt">MENÚ PRINCIPAL</p>
+            <button class="mi active" data-s="inicio">🏠 Panel principal</button>
+            <button class="mi" data-s="clientes">👥 Clientes y CRM</button>
+            <button class="mi" data-s="productos">🎁 Productos</button>
+            <button class="mi" data-s="inventario">📦 Inventario</button>
+            <button class="mi" data-s="proveedores">🚚 Proveedores</button>
+            <button class="mi" data-s="compras">🛒 Compras</button>
+            <button class="mi" data-s="ventas">💰 Ventas</button>
+            <button class="mi" data-s="cotizaciones">📄 Cotizaciones</button>
+            <button class="mi" data-s="produccion">🏭 Producción</button>
+            <button class="mi" data-s="pagos">💳 Pagos</button>
+            <button class="mi" data-s="exportaciones">🌎 Exportaciones</button>
+                        <button class="mi" data-s="gemelo_inv">🧬 Gemelo digital: Inventario</button>
+            <button class="mi" data-s="gemelo_prod">🧊 Gemelo digital: Producto</button>
+            <button class="mi" data-s="reportes">📊 Reportes</button>
+        </nav>
+        <div class="sf">
+            Sistema de gestión empresarial
+            <strong>Detallitos Box © 2026</strong>
+        </div>
+    </aside>
+
+    <main class="main">
+        <header class="top">
+            <div>
+                <h2>Panel de administración</h2>
+                <p>Bienvenido al sistema de Detallitos Box</p>
+            </div>
+            <div class="up">👤 Administrador</div>
+        </header>
+        <section id="view"></section>
+    </main>
+</div>
+
+<dialog id="dlg">
+    <h3 id="dt"></h3>
+    <div id="df"></div>
+    <div class="acts">
+        <button class="btn g" id="cx">Cancelar</button>
+        <button class="btn" id="ok">Guardar</button>
+    </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
